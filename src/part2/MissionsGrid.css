@@ -1,0 +1,44 @@
+.missions-grid table {
+    border: solid 1px rgb(204, 204, 204);
+    border-spacing: 0;
+    color: rgb(91, 91, 91);
+    text-align: left;
+    width: 100%;
+}
+
+.missions-grid table td {
+    padding: 8px 6px;
+}
+
+.missions-grid table thead th {
+    background-color: hsl(240, 25%, 98%);
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding: 10px 8px;
+    position: relative;
+}
+
+.missions-grid table thead th:not(:last-child):after {
+    content: '';
+    height: 80%;
+    width: 1px;
+
+    position: absolute;
+    right: 0;
+    top: 4px;
+
+    background-color: rgb(204, 204, 204);
+}
+
+.missions-grid table tbody {
+    border: 2px solid black;
+}
+
+.missions-grid table tbody td {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.missions-grid table tfoot td {
+    background-color: hsl(240, 25%, 98%);
+    border-top: 1px solid rgb(204, 204, 204);
+    text-align: right;
+}
